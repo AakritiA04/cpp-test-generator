@@ -1,0 +1,9 @@
+task: generate_unit_tests
+language: C++
+framework: GoogleTest
+output_format: cpp
+rules:
+  - Ensure no duplicate tests
+  - Include necessary headers
+  - Keep tests isolated and simple
+  - Match test function names with original functions
